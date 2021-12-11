@@ -4,7 +4,7 @@ import editar from "../../assets/editar.svg";
 import setaParaBaixo from "../../assets/setaPraBaixo.svg";
 import setaParaCima from "../../assets/setaPraCima.svg";
 import { useEffect, useState } from "react";
-import MiniModal from "./ConfirmModal";
+import MiniModal from "./ConfirmModal/confirmModal";
 
 export default function Tabela({
   transictionsData,

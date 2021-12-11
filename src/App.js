@@ -1,7 +1,7 @@
 import "./App.css";
 import btnFiltrar from "./assets/filtro.svg";
 import logoDindin from "./assets/logo.svg";
-import Filtros from "./componentes/Filtros";
+import Filtros from "./componentes/Filtros/filtros";
 import Tabela from "./componentes/Tabela/tabela";
 import Resumo from "./componentes/Resumo/resumo";
 import Modal from "./componentes/Resumo/modal";

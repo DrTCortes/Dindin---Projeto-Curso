@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styleFiltros.css";
 import { useEffect, useState } from "react";
 import exclui from "../../assets/exclui.svg";
 import acrescenta from "../../assets/acrescenta.svg";

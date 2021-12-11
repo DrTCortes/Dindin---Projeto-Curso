@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styleConfirmModal.css";
 import indicador from "../../../assets/indicador.svg";
 
 function refreshPage() {

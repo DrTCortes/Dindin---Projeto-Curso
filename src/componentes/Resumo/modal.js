@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styleResumoModal.css";
 import btnClose from "../../assets/fechar.svg";
 import { useEffect, useState } from "react";
 import InputMask from "react-input-mask";
