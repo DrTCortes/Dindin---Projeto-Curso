@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@300;500;700&display=swap");
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+
+.container-filters {
+  display: flex;
+  list-style: none;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 814px;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.container-filters span {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #b9b9b9;
+  margin-bottom: 25px;
+}
+
+.filters-list button {
+  all: unset;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 5px 10px;
+  min-width: 30%;
+
+  margin: 5px;
+  cursor: pointer;
+}
+
+.week--day,
+.category {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding: 10px 30px;
+  border-right: 1px solid #eaeaea;
+}
+.value {
+  color: #484848;
+  padding: 5px 30px;
+}
+
+.values-input {
+  width: 65px;
+  height: 22px;
+  margin-bottom: 12px;
+}
+.values-label {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+}
+.btn-filters {
+  position: absolute;
+  top: 275px;
+  left: 663px;
+}
+.btn-clear-filters {
+  all: unset;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 15px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-aplly-filters {
+  all: unset;
+  background: linear-gradient(264.83deg, #3a9ff1 -3.28%, #05ede3 100%);
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}

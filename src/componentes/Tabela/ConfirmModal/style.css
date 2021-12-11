@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@300;500;700&display=swap");
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+
+.container-confirm-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background: #e4f2fd;
+  border-radius: 4px;
+
+  width: 75px;
+  height: 35px;
+  position: relative;
+  left: -57px;
+  top: 50px;
+
+  padding: 15px 20px;
+  font-family: "Rubik", sans-serif;
+}
+.container-confirm-delete img {
+  position: relative;
+  top: -20px;
+  left: -45px;
+}
+.container-confirm-delete p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+
+  margin-top: -12px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+}
+.btn-actions-confirm-delete {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  width: 37px;
+  height: 15px;
+  padding: 5px 10px;
+  border-radius: 4px;
+
+  color: #fff;
+}
+.btn-sim {
+  background: #3a9ff1;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.btn-nao {
+  background: #ff576b;
+  cursor: pointer;
+}

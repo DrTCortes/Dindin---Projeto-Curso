@@ -1,33 +1,69 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@300;500;700&display=swap");
+
+.main {
+  background: #fff;
+  position: absolute;
+  top: 110px;
+
+  border-radius: 50px;
+  min-width: 100%;
+}
+
+.main--body {
+  display: flex;
+
+  margin-top: 25px;
+  margin-left: 300px;
+}
+
+.open-filters-button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+
+  margin-top: 40px;
+  margin-left: 300px;
+  padding: 8px 12px;
+
+  background: rgba(250, 250, 250, 0.8);
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.open-filters-button:hover {
+  background: rgb(102, 100, 100, 0.2);
+}
+.open-filters-button img {
+  margin-right: 5px;
+}
+
+.container-header {
+  background-image: linear-gradient(91.26deg, #05ede3 0%, #3a9ff1 97.77%);
+  padding: 30px 15px 110px 45px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  display: flex;
+  align-items: center;
   text-align: center;
-  background-image: linear-gradient(90deg, #05EDE3, #645FFB);
+
+  color: #fff;
+
+  position: relative;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
-
-.container-header{
-  width: 100vw;
-  text-align: left;
+.container-header img {
+  margin-right: 15px;
 }
-
-h1{
-  padding: 42px;
-  color: white;
-}
-
-.container-body{
-  display: flex;
-
-  width: 100vw;
-  height: 80vh;
-
-  background-color: white;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-}
-
-.container-super{
-  display: flex;
-  flex-direction: row;
-}
-
-
-
